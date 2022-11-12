@@ -10,6 +10,8 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { OutroscursosComponent } from './outroscursos/outroscursos.component';
 import { CertificacoesComponent } from './certificacoes/certificacoes.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
+import { AppRoutingModule } from './app-routing.module';
+
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { NavegacaoComponent } from './navegacao/navegacao.component';
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
