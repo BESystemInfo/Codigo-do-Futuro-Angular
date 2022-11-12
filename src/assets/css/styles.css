@@ -41,8 +41,9 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  --bs-primary-rgb: 135, 206, 250;
   --bs-secondary-rgb: 108, 117, 125;
+  --bs-terciary-rgb: 37, 38, 139;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -237,11 +238,11 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #0a17a38a;
   text-decoration: underline;
 }
 a:hover {
-  color: #974a2d;
+  color: #0100a0;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -4481,7 +4482,7 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(37 38 139 / 0.60);
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
@@ -7719,7 +7720,8 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-terciary-rgb), var(--bs-text-opacity)) !important;
+  /* color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; */
 }
 
 .text-secondary {
@@ -11324,10 +11326,11 @@ p.lead {
 }
 
 .subheading {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, "Saira Extra Condensed", -apple-system, BlinkMacSystemFont;
+  /* font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 #sideNav {
@@ -11364,7 +11367,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(73, 80, 87, 0.4);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -11400,7 +11403,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: #87cefa;
 }
 
 .dev-icons {
@@ -11433,3 +11436,8 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.agradecimento {
+  font-weight: 800;
+}
+
