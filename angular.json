@@ -67,7 +67,8 @@
               "browserTarget": "curriculo:build:production"
             },
             "development": {
-              "browserTarget": "curriculo:build:development"
+              "browserTarget": "curriculo:build:development",
+              "host": "192.168.18.2"
             }
           },
           "defaultConfiguration": "development"
